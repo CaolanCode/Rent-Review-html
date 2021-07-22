@@ -51,9 +51,9 @@
 #houseNum, #street, #town, #city, #country, #zipCode{
     padding:5px;
 }
-#address, #experience, #structure, #costs, #clean{
-    padding:10px;
+#address, #experience, #structure, #costs, #clean, #zip{
+    padding-bottom:15px;
 }
 #num, #str, #twn, #cty, #cny, #zip{
-    padding:5px;
+    padding-top:15px;
 }
