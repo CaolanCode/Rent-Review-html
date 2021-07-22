@@ -54,3 +54,6 @@
 #address, #experience, #structure, #costs, #clean{
     padding:10px;
 }
+#num, #str, #twn, #cty, #cny, #zip{
+    padding:5px;
+}
