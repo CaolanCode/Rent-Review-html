@@ -51,3 +51,6 @@
 #houseNum, #street, #town, #city, #country, #zipCode{
     padding:5px;
 }
+#address, #experience, #structure, #costs, #clean{
+    padding:10px;
+}
