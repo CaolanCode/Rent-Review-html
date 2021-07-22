@@ -45,3 +45,9 @@
     font-size: 1.5rem;
     padding:0 0.5em;
 }    
+#infoInput{
+    text-align:center;
+}
+#houseNum, #street, #town, #city, #country, #zipCode{
+    padding:5px;
+}
