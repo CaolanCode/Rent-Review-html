@@ -57,3 +57,6 @@
 #num, #str, #twn, #cty, #cny, #zip{
     padding-top:15px;
 }
+body{
+    background-color: #CCFFFF;
+}
