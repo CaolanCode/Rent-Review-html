@@ -60,4 +60,9 @@
 body{
     background-color: #CCFFFF;
 }
-    
+#signIn{
+    padding: 100px;
+}    
+#username, #password{
+    padding-bottom:10px;
+}
