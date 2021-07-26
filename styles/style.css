@@ -45,7 +45,7 @@
     font-size: 1.5rem;
     padding:0 0.5em;
 }    
-#infoInput{
+#infoInput, #submitReset, #signIn{
     text-align:center;
 }
 #houseNum, #street, #town, #city, #country, #zipCode{
@@ -60,6 +60,4 @@
 body{
     background-color: #CCFFFF;
 }
-#submitReset{
-    text-align: center;
-}
+    
