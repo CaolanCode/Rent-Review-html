@@ -63,6 +63,6 @@ body{
 #signIn, #signUp{
     padding: 100px;
 }    
-#username, #password, #createUn, #enterEm, #createPw{
+#username, #password, #createUn, #enterEm, #createPw, #confirmPw{
     padding-bottom:10px;
 }
