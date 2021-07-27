@@ -45,7 +45,7 @@
     font-size: 1.5rem;
     padding:0 0.5em;
 }    
-#infoForm, #submitReset, #signIn{
+#infoForm, #submitReset, #signIn, #signUp{
     text-align:center;
 }
 #houseNum, #street, #town, #city, #country, #zipCode{
@@ -60,9 +60,9 @@
 body{
     background-color: #CCFFFF;
 }
-#signIn{
+#signIn, #signUp{
     padding: 100px;
 }    
-#username, #password{
+#username, #password, #createUn, #enterEm, #createPw{
     padding-bottom:10px;
 }
