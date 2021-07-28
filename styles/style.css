@@ -71,3 +71,7 @@ body{
 #experienceId, #structureId, #costsId, #cleanId{
     font-size: 18px;
 }
+#submitId, #resetId{
+    font-size: 16px;
+    margin:0 10px;
+}
