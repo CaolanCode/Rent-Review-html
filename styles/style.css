@@ -48,9 +48,6 @@
 #infoForm, #submitReset, #signIn, #signUp{
     text-align:center;
 }
-#houseNum, #street, #town, #city, #country, #zipCode{
-    padding:5px;
-}
 #address, #experience, #structure, #costs, #clean{
     padding-bottom:25px;
 }
@@ -64,5 +61,10 @@ body{
     padding: 100px;
 }    
 #username, #password, #createUn, #enterEm, #createPw, #confirmPw{
-    padding-bottom:10px;
+    padding-bottom:15px;
+}
+#usernameBox, #passwordBox, #createUnBox, #enterEmBox, #createPwBox, #confirmPwBox,
+#houseNum, #street, #town, #city, #country, #zipCode{
+    font-size: 16px;
+    padding: 5px;
 }
