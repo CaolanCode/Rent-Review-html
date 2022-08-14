@@ -1,19 +1,23 @@
-#searchBar{
-    display:flex;
-    justify-content: center;
-    size:60px;
-    padding:100px;
+.search-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#searchBarButton{
-    cursor: pointer;
-    font-size: 1.5rem;
-    border:0;
-    background:transparent;
+.searchbar-container{
+  background-color: white;
+  position: absolute;
+  top: 40%;
+  border-radius: 20px;
+  padding: 10px 10px;
 }
-#searchBarButton:hover{
-    background-color: #b06fae;
+.searchbar-container input{
+  padding: 15px 40px;
+  border: none;
+  font-size: 18px;
 }
-#searchBarInput{
-    font-size: 1.5rem;
-    padding:0 0.5em;
-}    
+.searchbar-container button{
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
