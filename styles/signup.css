@@ -1,0 +1,17 @@
+.sign-up-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up-form{
+  position: absolute;
+  top: 30%;
+}
+.textbox{
+  margin: 20px 0;
+}
+.textbox input{
+  padding: 10px 50px;
+  border-radius: 20px;
+  border: none;
+}
