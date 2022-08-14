@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Rent Review</title>
+    <meta
+      name="description"
+      content="A website for tenants to view reviews of the property before commiting to rent the property"
+    />
+    <meta name="author" content="CaolanCode" />
+
+    <script
+      src="https://kit.fontawesome.com/18c608fa52.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/search.css" />
+  </head>
+
+  <body>
+    <navbar id="navbar">
+      <h2 id="name">Rent Review</h2>
+      <ul>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="review.html">Review</a></li>
+        <li><a href="index.html">Sign In</a></li>
+      </ul>
+    </navbar>
+    <div id="searchBar">
+      <input
+        type="text"
+        id="searchBarInput"
+        placeholder="Enter the address"
+        aria-label="search"
+      />
+      <button id="searchBarButton" aria-label="submit search">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

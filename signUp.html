@@ -1,43 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="CaolanCode">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="CaolanCode" />
 
-    <script src="https://kit.fontawesome.com/18c608fa52.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/style.css">
+    <script
+      src="https://kit.fontawesome.com/18c608fa52.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/search.css" />
     <title>Rent Review</title>
-</head>
-<body>
+  </head>
+  <body>
     <navbar id="navbar">
-        <h2 id="name">Rent Review</h2>
-            <ul>
-                <li><a href="index.html">Search</a></li>
-                <li><a href="review.html">Review</a></li>
-                <li><a href="signIn.html">Sign In</a></li>
-            </ul>
+      <h2 id="name">Rent Review</h2>
+      <ul>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="review.html">Review</a></li>
+        <li><a href="index.html">Sign In</a></li>
+      </ul>
     </navbar>
-   <form id="signUpForm">
-        <div id="signUp">
-            <div id="createUn">
-                <input type="text" name="createUn" id="createUnBox" placeholder="Create username" aria-label="Create username" required>
-            </div>
-            <div id="enterEm">
-                <input type="email" name="enterEm" id="enterEmBox" placeholder="Enter email" aria-label="Enter email" required>
-            </div>
-            <div id="createPw">
-                <input type="text" name="createPw" id="createPwBox" placeholder="Create password" aria-label="Create password" required>
-            </div>
-            <div id="confirmPw">
-                <input type="text" name="confirmPw" id="confirmPwBox" placeholder="Confirm password" aria-label="Confirm password" required>
-            </div>
-            <div id="submitReset">
-                <button type="reset" id="resetId">Reset</button>
-                <button type="submit" id="submitId">Submit</button>
-            </div>
+    <form id="signUpForm">
+      <div id="signUp">
+        <div id="createUn">
+          <input
+            type="text"
+            name="createUn"
+            id="createUnBox"
+            placeholder="Create username"
+            aria-label="Create username"
+            required
+          />
         </div>
-   </form> 
-</body>
+        <div id="enterEm">
+          <input
+            type="email"
+            name="enterEm"
+            id="enterEmBox"
+            placeholder="Enter email"
+            aria-label="Enter email"
+            required
+          />
+        </div>
+        <div id="createPw">
+          <input
+            type="text"
+            name="createPw"
+            id="createPwBox"
+            placeholder="Create password"
+            aria-label="Create password"
+            required
+          />
+        </div>
+        <div id="confirmPw">
+          <input
+            type="text"
+            name="confirmPw"
+            id="confirmPwBox"
+            placeholder="Confirm password"
+            aria-label="Confirm password"
+            required
+          />
+        </div>
+        <div id="submitReset">
+          <button type="reset" id="resetId">Reset</button>
+          <button type="submit" id="submitId">Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
 </html>

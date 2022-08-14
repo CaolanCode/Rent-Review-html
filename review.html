@@ -1,90 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <title>Rent Review</title>
-        <meta name="description" content="A website for tenants to view reviews of the property before commiting to rent the property">
-        <meta name="author" content="CaolanCode">
+    <title>Rent Review</title>
+    <meta
+      name="description"
+      content="A website for tenants to view reviews of the property before commiting to rent the property"
+    />
+    <meta name="author" content="CaolanCode" />
 
-        <script src="https://kit.fontawesome.com/18c608fa52.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="styles/style.css">
-    </head>
+    <script
+      src="https://kit.fontawesome.com/18c608fa52.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/search.css" />
+  </head>
 
-    
-    <body>
-        <navbar id="navbar">
-            <h2 id="name">Rent Review</h2>
-            <ul>
-                <li><a href="index.html">Search</a></li>
-                <li><a href="review.html">Review</a></li>
-                <li><a href="signIn.html">Sign In</a></li>
-            </ul>
-        </navbar>
-        <form id="infoForm">
-            <div id="address">
-                <div id="num">
-                    <input type="text" name="num" id="houseNum" placeholder="Enter the House No." aria-label="Number entry" required><br>
-                </div>
-                <div id="str">
-                    <input type="text" name="str" id="street" placeholder="Enter the Street" aria-label="Street entry" required><br>
-                </div>
-                <div id="twn">
-                    <input type="text" name="twn" id="town" placeholder="Enter the Town" aria-label="Town entry" required><br>
-                </div>
-                <div id="cty">
-                    <input type="text" name="cty" id="city" placeholder="Enter the City" aria-label="City entry" required><br>
-                </div>
-                <div id="cny">
-                    <input type="text" name="cny" id="country" placeholder="Enter the Country" aria-label="Country entry" required><br>
-                </div>
-                <div id="zip">
-                    <input type="text" name="zip" id="zipCode" placeholder="Enter the Zip Code" aria-label="Zip code entry" required><br>
-                </div>
-            </div>
-            <label for="experience" id="experienceId">Rate your experience out of five:</label>
-            <div id="experience">
-                <input type="radio" id="rateOneEx" name="drone" value="One">
-                <input type="radio" id="rateTwoEx" name="drone" value="Two">
-                <input type="radio" id="rateThreeEx" name="drone" value="Three">
-                <input type="radio" id="rateFourEx" name="drone" value="Four">
-                <input type="radio" id="rateFiveEx" name="drone" value="Five">
-            </div>
-            <label for="structure" id="structureId">Rate the structural integrity of the building out of five:</label>
-            <div id="structure">
-                <input type="radio" id="rateOneSt" name="drone" value="One">
-                <input type="radio" id="rateTwoSt" name="drone" value="Two">
-                <input type="radio" id="rateThreeSt" name="drone" value="Three">
-                <input type="radio" id="rateFourSt" name="drone" value="Four">
-                <input type="radio" id="rateFiveSt" name="drone" value="Five">
-            </div>
-            <label for="costs" id="costsId">Rate the heating/electricity costs:</label>
-            <div id="costs">
-                <input type="radio" id="rateOneCost" name="drone" value="One">
-                <label>20-50/month</label>
-                <input type="radio" id="rateTwoCost" name="drone" value="Two">
-                <label>51-80/month</label>
-                <input type="radio" id="rateThreeCost" name="drone" value="Three">
-                <label>81-120/month</label>
-                <input type="radio" id="rateFourCost" name="drone" value="Four">
-                <label>121-150/month</label>
-                <input type="radio" id="rateFiveCost" name="drone" value="Five">
-                <label>151-180/month</label>
-            </div>
-            <label for="clean" id="cleanId">Rate the cleanliness of the building out of five:</label>
-            <div id="clean">
-                <input type="radio" id="rateOneClean" name="drone" value="One">
-                <input type="radio" id="rateTwoClean" name="drone" value="Two">
-                <input type="radio" id="rateThreeClean" name="drone" value="Three">
-                <input type="radio" id="rateFourClean" name="drone" value="Four">
-                <input type="radio" id="rateFiveClean" name="drone" value="Five">
-            </div>
-            <div id="submitReset">
-                <button type="reset" id="resetId">Reset</button>
-                <button type="submit" id="submitId">Submit</button>
-            </div>
-        </form>
-        <script src="scripts/main.js"></script>
-    </body>
+  <body>
+    <navbar id="navbar">
+      <h2 id="name">Rent Review</h2>
+      <ul>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="review.html">Review</a></li>
+        <li><a href="index.html">Sign In</a></li>
+      </ul>
+    </navbar>
+    <form id="infoForm">
+      <div id="address">
+        <div id="num">
+          <input
+            type="text"
+            name="num"
+            id="houseNum"
+            placeholder="Enter the House No."
+            aria-label="Number entry"
+            required
+          /><br />
+        </div>
+        <div id="str">
+          <input
+            type="text"
+            name="str"
+            id="street"
+            placeholder="Enter the Street"
+            aria-label="Street entry"
+            required
+          /><br />
+        </div>
+        <div id="twn">
+          <input
+            type="text"
+            name="twn"
+            id="town"
+            placeholder="Enter the Town"
+            aria-label="Town entry"
+            required
+          /><br />
+        </div>
+        <div id="cty">
+          <input
+            type="text"
+            name="cty"
+            id="city"
+            placeholder="Enter the City"
+            aria-label="City entry"
+            required
+          /><br />
+        </div>
+        <div id="cny">
+          <input
+            type="text"
+            name="cny"
+            id="country"
+            placeholder="Enter the Country"
+            aria-label="Country entry"
+            required
+          /><br />
+        </div>
+        <div id="zip">
+          <input
+            type="text"
+            name="zip"
+            id="zipCode"
+            placeholder="Enter the Zip Code"
+            aria-label="Zip code entry"
+            required
+          /><br />
+        </div>
+      </div>
+      <label for="experience" id="experienceId"
+        >Rate your experience out of five:</label
+      >
+      <div id="experience">
+        <input type="radio" id="rateOneEx" name="drone" value="One" />
+        <input type="radio" id="rateTwoEx" name="drone" value="Two" />
+        <input type="radio" id="rateThreeEx" name="drone" value="Three" />
+        <input type="radio" id="rateFourEx" name="drone" value="Four" />
+        <input type="radio" id="rateFiveEx" name="drone" value="Five" />
+      </div>
+      <label for="structure" id="structureId"
+        >Rate the structural integrity of the building out of five:</label
+      >
+      <div id="structure">
+        <input type="radio" id="rateOneSt" name="drone" value="One" />
+        <input type="radio" id="rateTwoSt" name="drone" value="Two" />
+        <input type="radio" id="rateThreeSt" name="drone" value="Three" />
+        <input type="radio" id="rateFourSt" name="drone" value="Four" />
+        <input type="radio" id="rateFiveSt" name="drone" value="Five" />
+      </div>
+      <label for="costs" id="costsId"
+        >Rate the heating/electricity costs:</label
+      >
+      <div id="costs">
+        <input type="radio" id="rateOneCost" name="drone" value="One" />
+        <label>20-50/month</label>
+        <input type="radio" id="rateTwoCost" name="drone" value="Two" />
+        <label>51-80/month</label>
+        <input type="radio" id="rateThreeCost" name="drone" value="Three" />
+        <label>81-120/month</label>
+        <input type="radio" id="rateFourCost" name="drone" value="Four" />
+        <label>121-150/month</label>
+        <input type="radio" id="rateFiveCost" name="drone" value="Five" />
+        <label>151-180/month</label>
+      </div>
+      <label for="clean" id="cleanId"
+        >Rate the cleanliness of the building out of five:</label
+      >
+      <div id="clean">
+        <input type="radio" id="rateOneClean" name="drone" value="One" />
+        <input type="radio" id="rateTwoClean" name="drone" value="Two" />
+        <input type="radio" id="rateThreeClean" name="drone" value="Three" />
+        <input type="radio" id="rateFourClean" name="drone" value="Four" />
+        <input type="radio" id="rateFiveClean" name="drone" value="Five" />
+      </div>
+      <div id="submitReset">
+        <button type="reset" id="resetId">Reset</button>
+        <button type="submit" id="submitId">Submit</button>
+      </div>
+    </form>
+    <script src="scripts/main.js"></script>
+  </body>
 </html>

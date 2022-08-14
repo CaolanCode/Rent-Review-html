@@ -1,0 +1,30 @@
+#infoForm, #submitReset, #signIn, #signUp{
+    text-align:center;
+}
+#address, #experience, #structure, #costs, #clean{
+    padding-bottom:25px;
+}
+#num, #str, #twn, #cty, #cny, #zip{
+    padding-top:15px;
+}
+body{
+    background-color: #CCFFFF;
+}
+#signIn, #signUp{
+    padding: 100px;
+}    
+#username, #password, #createUn, #enterEm, #createPw, #confirmPw{
+    padding-bottom:15px;
+}
+#usernameBox, #passwordBox, #createUnBox, #enterEmBox, #createPwBox, #confirmPwBox,
+#houseNum, #street, #town, #city, #country, #zipCode{
+    font-size: 16px;
+    padding: 5px;
+}
+#experienceId, #structureId, #costsId, #cleanId{
+    font-size: 18px;
+}
+#submitId, #resetId{
+    font-size: 16px;
+    margin:0 10px;
+}

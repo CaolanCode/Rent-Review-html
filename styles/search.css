@@ -1,0 +1,19 @@
+#searchBar{
+    display:flex;
+    justify-content: center;
+    size:60px;
+    padding:100px;
+}
+#searchBarButton{
+    cursor: pointer;
+    font-size: 1.5rem;
+    border:0;
+    background:transparent;
+}
+#searchBarButton:hover{
+    background-color: #b06fae;
+}
+#searchBarInput{
+    font-size: 1.5rem;
+    padding:0 0.5em;
+}    
