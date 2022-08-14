@@ -17,42 +17,40 @@
     <title>Rent Review</title>
   </head>
   <body>
-    <navbar id="navbar">
-      <h2 id="name">Rent Review</h2>
-      <ul>
-        <li><a href="search.html">Search</a></li>
-        <li><a href="review.html">Review</a></li>
-        <li><a href="index.html">Sign In</a></li>
-      </ul>
-    </navbar>
-    <form id="signInForm">
-      <div id="signIn">
-        <div id="username">
-          <input
-            type="text"
-            name="username"
-            id="usernameBox"
-            placeholder="Enter username"
-            aria-label="Username Entry"
-            required
-          />
-        </div>
-        <div id="password">
-          <input
-            type="password"
-            name="password"
-            id="passwordBox"
-            placeholder="Enter password"
-            aria-label="Password Entry"
-            required
-          />
-        </div>
-        <p>Don't have an account? <a href="signUp.html">Create account</a></p>
-        <div id="submitReset">
-          <button type="reset" id="resetId">Reset</button>
-          <button type="submit" id="submitId">Submit</button>
-        </div>
+    <div class="navbar">
+      <div class="name">Rent Review</div>
+      <div class="links">
+        <ul>
+          <li><a href="search.html">Search</a></li>
+          <li><a href="review.html">Review</a></li>
+          <li><a href="index.html">Sign In</a></li>
+        </ul>
       </div>
-    </form>
+    </div>
+    <div class="sign-in-container">
+      <div class="username-container">
+        <input
+          type="text"
+          name="username"
+          placeholder="Enter username"
+          aria-label="Username Entry"
+          required
+        />
+      </div>
+      <div class="password-container">
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter password"
+          aria-label="Password Entry"
+          required
+        />
+      </div>
+      <p>Don't have an account? <a href="signUp.html">Create account</a></p>
+      <div class="button-container">
+        <button type="reset" id="resetId">Reset</button>
+        <button type="submit" id="submitId">Submit</button>
+      </div>
+    </div>
   </body>
 </html>
