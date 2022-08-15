@@ -9,6 +9,7 @@
   top: 40%;
   border-radius: 20px;
   padding: 10px 10px;
+  border: 1px solid black;
 }
 .searchbar-container input{
   padding: 15px 40px;
