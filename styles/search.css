@@ -19,5 +19,13 @@
   padding: 10px;
   background-color: transparent;
   border: none;
+  color: black;
   cursor: pointer;
+  transition: color 0.15s;
+}
+.searchbar-container button:hover{
+  opacity: 0.8;
+}
+.searchbar-container button:active{
+  opacity: 0.5;
 }
