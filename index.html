@@ -17,6 +17,7 @@
     ></script>
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/signin.css" />
 
     <title>Rent Review</title>
   </head>
@@ -32,28 +33,29 @@
       </div>
     </div>
     <div class="sign-in-container">
-      <div class="username-container">
-        <input
-          type="text"
-          name="username"
-          placeholder="Enter username"
-          aria-label="Username Entry"
-          required
-        />
-      </div>
-      <div class="password-container">
-        <input
-          type="password"
-          name="password"
-          placeholder="Enter password"
-          aria-label="Password Entry"
-          required
-        />
-      </div>
-      <p>Don't have an account? <a href="signUp.html">Create account</a></p>
-      <div class="button-container">
-        <button type="reset" class="button">Reset</button>
-        <button type="submit" class="button">Login</button>
+      <div class="sign-in-form">
+        <div class="textbox">
+          <input
+            type="email"
+            placeholder="Enter email"
+            aria-label="Username Entry"
+            required
+          />
+        </div>
+        <div class="textbox">
+          <input
+            type="password"
+            placeholder="Enter password"
+            aria-label="Password Entry"
+            required
+          />
+        </div>
+        <div class="create-account">Don&#39;t have an account&#63; <a href="signUp.html">Create account</a></div>
+        </p>
+        <div class="button-container">
+          <button type="reset" class="button">Reset</button>
+          <button type="submit" class="button">Login</button>
+        </div>
       </div>
     </div>
   </body>
