@@ -32,3 +32,6 @@
   background-color: #fcf7ad;
   color: #eb2363;
 }
+.links li a:active{
+  opacity: 0.7;
+}
